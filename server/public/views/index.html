@@ -20,6 +20,11 @@
   <div>
     <h1>Spy Master</h1>
     <button ng-click="newGrid()">New Grid</button>
+    <div class="wildcard" style="background-color: {{wildCard}}">
+      <p>
+        Wild Card
+      </p>
+    </div>
 
     <div class="grid-box">
       <button ng-repeat="box in gridArray track by $index" class="little-box" style="background-color: {{box}}; color: {{box}}">{{box}}</button>

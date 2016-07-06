@@ -12,23 +12,6 @@
   border: 1px solid black;
 }
 
-.red {
-  background-color: red;
-}
-
-.black {
-  color: white;
-  background-color: black;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.grey {
-  background-color: grey;
-}
-
-.purple {
-  background-color: purple;
+.wildcard {
+  width: 100px;
 }
