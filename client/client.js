@@ -64,6 +64,8 @@ app.controller('MainController', ['$scope', function($scope){
     //console.log($scope.gridArray);
   };
 
+//[][][][]][]][][Look Here!!!!!][][][][][][][][][][][][]
+//You may end up having to convert the array of colors to an array of objects that includes individual tanclasses in order to be able to control just a single one.
   $scope.tanClass = {tan:true};
 
   $scope.showColor = function(){
