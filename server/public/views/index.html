@@ -27,7 +27,13 @@
     </div>
 
     <div class="grid-box">
-      <button ng-repeat="box in gridArray track by $index" class="little-box" style="background-color: {{box}}; color: {{box}}">{{box}}</button>
+      <!--<button ng-style="changed" ng-repeat="box in gridArray track by $index" class="little-box tan" ng-click="changed={color: {{box}}; background-color: {{box}};}">{{box}}</button>-->
+      <!--<button ng-repeat="box in gridArray track by $index" style="background-color: {{box}}; color: {{box}}" ng-click="toggle = !toggle" class="little-box tan" ng-class="{'tan' : toggle}" >{{box}}</button>
+      <button ng-repeat="box in gridArray track by $index" class="little-box" style="background-color: {{box}}; color: {{box}}">{{box}}</button>-->
+      <button id="{{box}}" ng-click="showColor()" ng-repeat="box in gridArray track by $index" ng-class="tanClass" class="little-box">{{box}}</button>
+
+      <!--Every little box needs to be a button. When you click on the button, it reveals its color. -->
+
 
     </div>
 

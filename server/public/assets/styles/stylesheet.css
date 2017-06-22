@@ -8,8 +8,32 @@
   height: 50px;
   padding: 0;
   margin: 0;
-  background-color: tan;
   border: 1px solid black;
+}
+
+.tan {
+  background-color: tan;
+  color: tan;
+}
+
+#blue {
+  background-color: blue;
+  color: blue;
+}
+
+#red {
+  background-color: red;
+  color: red;
+}
+
+#black {
+  background-color: black;
+  color: black;
+}
+
+#grey {
+  background-color: grey;
+  color: grey;
 }
 
 .wildcard {

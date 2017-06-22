@@ -46,12 +46,10 @@ app.controller('MainController', ['$scope', function($scope){
       colorArray.splice(colorIndex, 1);
     }
 
-
-
     for (i=0; i < $scope.gridArray.length; i++){
       if ($scope.gridArray[i] == "Purple"){
         var coinFlip = randomNumber(2,1);
-        console.log(coinFlip);
+        //console.log(coinFlip);
 
         if (coinFlip == 1){
           $scope.gridArray[i] = "Blue";
@@ -63,9 +61,14 @@ app.controller('MainController', ['$scope', function($scope){
       }
     }
 
-    // console.log($scope.gridArray);
+    //console.log($scope.gridArray);
   };
 
+  $scope.tanClass = {tan:true};
+
+  $scope.showColor = function(){
+    $scope.tanClass.tan = !$scope.tanClass.tan;
+  };
 
 
 
